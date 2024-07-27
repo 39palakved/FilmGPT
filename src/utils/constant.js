@@ -9,7 +9,7 @@ export const SUPPORTED_LANGUAGES = [
   { identifier: "hindi", name: "Hindi" },
   { identifier: "spanish", name: "Spanish" },
 ];
-
+export const OPENAI_KEY ="sk-None-XBagIqCluCoazI9H53CyT3BlbkFJNzfm4gZmGA1mFYmH1W0F";
 export const Api_OPTION = {
     method: 'GET',
     headers: {
