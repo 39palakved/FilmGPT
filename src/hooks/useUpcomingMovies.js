@@ -12,7 +12,7 @@ const useUpcomingMovies = () => {
 
   const getUpcomingMovies = async () => {
     const data = await fetch(
-    'https://api.themoviedb.org/3/movie/upcoming?language=hi-in&page=1',
+    'https://api.themoviedb.org/3/movie/upcoming?language=hi&region=IN&page=2',
       Api_OPTION
     );
     const json = await data.json();
